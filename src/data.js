@@ -1,3 +1,8 @@
+import tour1 from './images/tour-1.jpeg'
+import tour2 from './images/tour-2.jpeg'
+import tour3 from './images/tour-3.jpeg'
+import tour4 from './images/tour-4.jpeg'
+
 export const pageLinks = [
       {
             id: 1,
@@ -36,5 +41,69 @@ export const socialLinks = [
             id: 3,
             href: "https://www.twitter.com",
             iconName: "fab fa-squarespace"
+      }
+];
+
+export const services = [
+      {
+            id: 1,
+            icon: "fas fa-wallet fa-fw",
+            title: "saving money",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      {
+            id: 2,
+            icon: "fas fa-tree fa-fw",
+            title: "endless hiking",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      },
+      {
+            id: 3,
+            icon: "fas fa-socks fa-fw",
+            title: "amazing comfort",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+      }
+];
+
+export const tours = [
+      {
+            id: 1,
+            href: tour1,
+            date: "august 26th, 2020",
+            title: "Tibet Adventure",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            region: "china",
+            duration: "6 days",
+            price: "from $2100"
+      },
+      {
+            id: 2,
+            href: tour2,
+            date: "october 1th, 2020",
+            title: "best of java",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            region: "indonesia",
+            duration: "11 days",
+            price: "from $3000"
+      },
+      {
+            id: 3,
+            href: tour3,
+            date: "september 15th, 2020",
+            title: "explore hong kong",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            region: "hong kong",
+            duration: "8 days",
+            price: "from $5000"
+      },
+      {
+            id: 4,
+            href: tour4,
+            date: "december 5th, 2019",
+            title: "kenya highlights",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            region: "kenya",
+            duration: "20 days",
+            price: "from $3300"
       }
 ];
